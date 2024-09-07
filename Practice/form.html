@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Admission Form</h1>
+      <form action="form.php">
+      <input type="text" placeholder="Enter your name" />
+
+      <!-- <input type="radio" value="Section A" name="Section"> A -->
+<br>
+      <label for="sectionb">
+        <input type="radio" value="Section B" name="Section" id="sectionb" /> B
+      </label>
+<br>
+      <label for="sectionc">
+        <input type="radio" value="Section C" name="Section" id="sectionc" /> C
+      </label>
+<br>
+      <label for="sectiond">
+        <input type="radio" value="Section D" name="Section" id="sectiond" /> D
+      </label>
+
+
+      <!-- if we keep the name different , not same, we can't choose one option, multiple option can also be chosen -->
+    <br>
+    <label for="foodcanteen">
+      <input type="checkbox" name="Food Canteen Card" id="foodcanteen" class="red"> CheckBox
+      </label>
+    <!-- if for and id will not be the same , we can tick checkbox by clicking on text -->
+<br>
+    <textarea name="explain" id="explain" placeholder="Explain why you want to join" cols="30" rows="10"></textarea>
+    <br>
+    <select name="car" id="car">
+        <option value="no-car">Select Your Car</option>
+        <option value="sonata">Sonata</option>
+        <option value="swift">Swift</option>
+        <option value="grande">Grande</option>
+        <option value="civic">Civic</option>
+
+    </select>
+
+
+</form>
+
+    </div>
+
+  </body>
+</html>

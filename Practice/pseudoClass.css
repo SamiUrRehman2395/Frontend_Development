@@ -1,0 +1,49 @@
+a:link{
+    color: black;
+}
+a:visited{
+    color: crimson;
+}
+a:hover{
+    color: greenyellow;
+}
+a:active{
+    color: darkorange;
+}
+
+button:hover{
+    color:blue;
+}
+
+/* li:nth-child(3){
+    background-color: aquamarine;
+}  */
+
+ li:nth-child(odd){
+    background-color: skyblue;
+}
+li:nth-child(even){
+    background-color: powderblue;
+}
+
+/* li:nth-child(2n){
+    background-color: deeppink;
+} */
+
+/* li:nth-child(2n+1){
+    background-color: deeppink;
+} */
+
+
+h1{
+    color: palevioletred;
+    text-shadow: -5px 5px 5px pink;
+    box-shadow: 0px 5px 5px magenta;
+}
+h2{
+    color: black;
+    text-shadow: 0px 0px 3px yellow, 0px -5px 3px maroon;
+}
+h2:hover{
+    box-shadow: 0px 5px 5px red;
+}

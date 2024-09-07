@@ -1,0 +1,27 @@
+/* Background */
+
+/* body{
+    background: linear-gradient(skyblue, lightseagreen, seagreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+} */
+h1{
+    background: linear-gradient(to top, black,  orangered);
+    color: aliceblue;
+    
+}
+h2{
+    background: linear-gradient(to left, yellow, orange);
+  
+}
+p{
+    color: azure;
+}
+body{
+    background-image: url("painting-mountain-lake-with-mountain-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

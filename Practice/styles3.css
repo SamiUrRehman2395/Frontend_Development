@@ -1,0 +1,37 @@
+body{
+    border: 2px solid; 
+   margin : 20px;
+   /* margin is the space from sides */
+    padding: 10px
+    /* space between border and inside content */
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background: yellowgreen;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* if we want the boc to be horizontally in centre */
+/* we use margin left and right both auto */
+    margin-left: auto;
+    margin-right: auto;
+}
+#box2{
+    border: 5px solid;
+    width: 350px;
+    height: 150px;
+    font-size: 20px;
+    background: blueviolet;
+    margin-bottom: 10px;
+    margin-left: 50%;
+    padding: 10px;
+    /* if we want to keep the box to the right side */
+    margin-left: auto;
+    /* it will stick to RHS no matter what the window size */
+}
+/* we can use % instead of px in margins */
+/* so window size does'nt matter then */

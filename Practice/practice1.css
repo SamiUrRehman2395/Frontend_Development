@@ -1,0 +1,64 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .menu-icon {
+        display: none;
+    }
+    
+    nav {
+        display: block;
+    }
+    
+    nav ul {
+        display: flex;
+    }
+    
+    nav ul li {
+        padding: 0 20px;
+    }
+}
+
+/* Page content styling */
+main {
+    padding: 20px;
+}

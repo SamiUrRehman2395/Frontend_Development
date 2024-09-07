@@ -1,0 +1,43 @@
+/* Colors and Fonts */
+
+/* body{
+    background-color: black;
+} */
+h1{
+    background-color: white;
+    color: blue;
+    font-weight: 1500;
+    font-family: "Matemasie", sans-serif;
+    
+}
+h2{
+    background-color: white;
+    color: blue;
+    font-weight: 1500;
+    font-family: 'Grey Qo';
+}
+#p1{
+    background-color: chocolate;
+    color: black;
+    font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+#p2{
+    background-color: navy;
+    color: aquamarine;
+}
+#p3{
+    background-color: bisque;
+    color: mediumvioletred;
+
+}
+.even{
+    background-color: red;
+}
+.odd{
+    background-color: royalblue;
+}

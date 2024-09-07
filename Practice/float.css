@@ -1,0 +1,20 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    font-size: 20px;
+    text-align: center;
+    background: tomato;
+
+    margin-right: 10px;
+
+    float: left;
+}
+img{
+    margin-right: 10px;
+    width: 500px;
+    float: left;
+}
+/* p{
+    clear: both;
+} */
